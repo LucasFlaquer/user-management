@@ -4,6 +4,6 @@ export default class UsersController {
   public async create({ request }: HttpContextContract) {
     const data = request.only(['name', 'username'])
     console.log(data)
-    return ['yess']
+    return { message: 'Usuário criado com sucesso', data }
   }
 }
