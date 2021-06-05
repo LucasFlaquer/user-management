@@ -7,7 +7,8 @@
     "start": "node server.js",
     "dev": "node ace serve --watch",
     "lint": "eslint . --ext=.ts",
-    "format": "prettier --write ."
+    "format": "prettier --write .",
+    "production:start": "yarn build && yarn start"
   },
   "devDependencies": {
     "@adonisjs/assembler": "^5.0.0",
