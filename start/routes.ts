@@ -27,5 +27,6 @@ Route.get('/', async () => {
   return {
     hello: 'World',
     username: 'LucasFlaquer',
+    email: 'lucas.flaquer@gmail.com',
   }
 })
