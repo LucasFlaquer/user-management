@@ -25,7 +25,7 @@ Route.post('/users', 'UsersController.create')
 
 Route.get('/', async () => {
   return {
-    hello: 'world',
+    hello: 'Mundo',
     username: 'LucasFlaquer',
   }
 })
